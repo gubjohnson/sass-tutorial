@@ -1,0 +1,22 @@
+{
+  "name": "sass-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gubjohnson/sass-tutorial.git"
+  },
+  "author": "Johny Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gubjohnson/sass-tutorial/issues"
+  },
+  "homepage": "https://github.com/gubjohnson/sass-tutorial#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
